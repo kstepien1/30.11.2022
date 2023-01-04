@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{height: 100%;}
+        .znaczeknieboraczek{height: 80px;width: 80px;margin-bottom: 10px;position: relative;top:0;left:10px;transform: translateY(-1050px);}
+        .znaczeknieboraczek:hover{cursor: pointer;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #6b6b6b;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: rgb(202, 80, 75);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+  <img src="tofik.png" >
+   
+    <a href="2.html"><div class="znaczeknieboraczek"></div></a><br>
+    <a href="22.html"> <div class="znaczeknieboraczek"></div></a><br>
+        <a href="23.html"> <div class="znaczeknieboraczek"></div></a><br>
+            <a href="24.html"> <div class="znaczeknieboraczek"></div></a><br>
+                <a href="25.html"><div class="znaczeknieboraczek"></div></a><br>
+                    <a href="26.html"><div class="znaczeknieboraczek"></div></a><br>
+                        <a href="27.html"><div class="znaczeknieboraczek"></div></a><br>
+                            <a href="28.html"><div class="znaczeknieboraczek"></div></a><br>
+                                <a href="29.html"> <div class="znaczeknieboraczek" style="width: 100px;"></div></a><br>
+                                    <a href="29.html"> <div class="znaczeknieboraczek" style="width: 100px;"></div></a><br>
+
+                                    <div style="margin-left:25%;padding:1px 16px;height:1000px;position: absolute;top: 0;right: 50;">
+                                      <h2>
+                                      </h2>
+                                      <img src="data:image/png;base64,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">
+                                      <h1>Ostrzega o niebezpiecznym zakręcie w kierunku wskazanym na znaku.</h1>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>
+                                      <p>.</p>  
+
+</body>
+</html>
